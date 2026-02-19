@@ -1,0 +1,22 @@
+/* خطوط وتنسيقات عامة */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* تصميم قسم الهيرو بخلفية جذابة */
+.hero-bg {
+    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+                url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+/* تأثيرات عند تمرير الفأرة على الأقسام */
+.department-card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
