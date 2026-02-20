@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* بطاقة الواتساب العلوية */
+.whatsapp-card {
+    background-color: #10b981;
+    color: white;
+    border-radius: 20px 5px 20px 20px;
+}
+
+/* بطاقات المزايا (التي في الصورة) */
+.feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* بطاقات الأطباء */
+.doctor-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    transition: all 0.4s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+}
+
+.doctor-img-container {
+    width: 100px;
+    height: 100px;
+    background: #f8fafc;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #10b981;
+}
+
+/* تحسين شكل الروابط */
+a, button {
+    cursor: pointer;
+}
