@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    overflow-x: hidden;
+}
+
+/* تنسيق قسم الهيرو بخلفية تدرجية أو صورة */
+.hero-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+    min-height: 400px;
+}
+
+/* بطاقات التخصصات */
+.dept-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.dept-card:hover {
+    transform: translateY(-10px);
+    border-color: #2563eb;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* أزرار مخصصة */
+.whatsapp-btn {
+    background-color: #10b981;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #059669;
+}
+
+.nav-link {
+    color: #374151;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #2563eb;
+}
